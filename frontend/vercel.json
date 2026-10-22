@@ -1,0 +1,28 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/login",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/dashboard",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/permit-form",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/permit-form/:id",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/Verification_Portal/:id",
+      "destination": "/index.html"
+    }
+  ]
+}
