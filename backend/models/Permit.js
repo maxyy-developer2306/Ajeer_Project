@@ -59,6 +59,12 @@ const permitSchema = new mongoose.Schema(
       default: '',
       trim: true,
     },
+    company_name: {
+      type: String,
+      default: '',
+      trim: true,
+    },
+
  
     status: {
       type: Boolean,

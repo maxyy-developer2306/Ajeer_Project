@@ -47,6 +47,7 @@ export const createPermit = async (req, res) => {
       date_of_birth,
       iqama_mosasa_number,
       iqama_mosasa,
+      company_name,
       status,
     } = req.body;
 
@@ -67,6 +68,7 @@ export const createPermit = async (req, res) => {
       date_of_birth: date_of_birth || '',
       iqama_mosasa_number: iqama_mosasa_number || '',
       iqama_mosasa: iqama_mosasa || '',
+      company_name: company_name || '',
       status: status ?? true,
     });
     await syncDatabases();

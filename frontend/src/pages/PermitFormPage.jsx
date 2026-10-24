@@ -15,6 +15,8 @@ const emptyPermit = {
   date_of_birth: '',
   iqama_mosasa_number: '', 
   iqama_mosasa: '', 
+  company_name: '', 
+
   status: true,
 };
 
@@ -200,6 +202,18 @@ const PermitFormPage = () => {
                 type="text" 
                 name="iqama_mosasa" 
                 value={form.iqama_mosasa || ''} 
+                onChange={handleChange} 
+                className="min-h-11 w-full rounded-md border border-[#cbd6d0] bg-white px-3 py-2 text-[#18332d] outline-none transition focus:border-[#17745b] focus:ring-2 focus:ring-[#17745b]/20" 
+              />
+            </label>
+
+            {/* 12. Establishment Name / اسم المنشأة */}
+            <label className="block min-w-0 text-sm font-bold text-[#385249]">
+              <span className="mb-2 block">Establishment Name / اسم المنشأة</span>
+              <input 
+                type="text" 
+                name="company_name" 
+                value={form.company_name || ''} 
                 onChange={handleChange} 
                 className="min-h-11 w-full rounded-md border border-[#cbd6d0] bg-white px-3 py-2 text-[#18332d] outline-none transition focus:border-[#17745b] focus:ring-2 focus:ring-[#17745b]/20" 
               />
