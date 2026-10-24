@@ -195,17 +195,7 @@ const PermitFormPage = () => {
               />
             </label>
 
-            {/* 11. Iqama Mosasa */}
-            <label className="block min-w-0 text-sm font-bold text-[#385249]">
-              <span className="mb-2 block">Iqama Mosasa</span>
-              <input 
-                type="text" 
-                name="iqama_mosasa" 
-                value={form.iqama_mosasa || ''} 
-                onChange={handleChange} 
-                className="min-h-11 w-full rounded-md border border-[#cbd6d0] bg-white px-3 py-2 text-[#18332d] outline-none transition focus:border-[#17745b] focus:ring-2 focus:ring-[#17745b]/20" 
-              />
-            </label>
+         
 
             {/* 12. Establishment Name / اسم المنشأة */}
             <label className="block min-w-0 text-sm font-bold text-[#385249]">
